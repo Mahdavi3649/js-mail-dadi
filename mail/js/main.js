@@ -3,13 +3,15 @@
 
 const listEmail = ["ivadham.smay3649@gmail.com", "mymail@gmail.com","john-s@yahoo.com"];
 //const mailUtente = prompt("Insert your mail Address?!");
-const mailUtente = document.getElementById("mail");
 
 
-let answer = document.getElementById("mail");
+let answer = document.getElementById("mail").value;
 
+const send = document.getElementById("send")
+send.addEventListener("click", function() {
+    
+    const mailUtente = document.getElementById("mail").value;
 
-answer.addEventListener("click", function() {
     for(let i = 0; i < listEmail.length; i++) {
 
         if(mailUtente === listEmail[i]){
