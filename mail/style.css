@@ -1,0 +1,13 @@
+#mail {
+  padding: 8px;
+  width: 12rem;
+  background-color: palegreen;
+  border-radius: 6px;
+}
+
+#send {
+  padding: 8px;
+  background-color: rgb(102, 27, 99);
+  color: white;
+  border-radius: 6px;
+}
